@@ -26,7 +26,7 @@ the extracted features.
 recall, and F1-score.
 
 # Tools and Technologies 
-1 Librosa: For audio processing and feature extraction. 
-2 Soundfile: For reading and writing sound files. 
-3 sklearn: For machine learning model development and evaluation. 
-4 Python: As the programming language to integrate these libraries and implement the project.
+1. Librosa: For audio processing and feature extraction. 
+2. Soundfile: For reading and writing sound files. 
+3. sklearn: For machine learning model development and evaluation. 
+4. Python: As the programming language to integrate these libraries and implement the project.
