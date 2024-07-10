@@ -1,4 +1,5 @@
 # Speech-Emotion-Recognition-with-Librosa-
+
 # Introduction
 In the digital age, understanding human emotions through speech can enhance numerous applications, 
 from customer service to mental health monitoring. The Speech Emotion Recognition with Librosa 
@@ -6,6 +7,9 @@ project aims to leverage audio processing techniques to detect and classify emot
 the powerful Python libraries Librosa, Soundfile, and sklearn. This project will serve as an introduction to 
 audio processing, feature extraction, and machine learning, paving the way for more advanced 
 applications such as deep learning-based emotion recognition systems.
+
+# DataSet
+https://www.kaggle.com/datasets/dmitrybabko/speech-emotion-recognition-en?resource=download&select=Crema
 
 # Methodology  
 ## 1. Data Collection and Preprocessing 
