@@ -9,18 +9,18 @@ applications such as deep learning-based emotion recognition systems.
 
 # Methodology  
 ## 1. Data Collection and Preprocessing 
- 1. Collect a dataset of speech recordings labeled with corresponding emotions. 
- 2. Load and preprocess these sound files using the Librosa and Soundfile libraries to ensure 
-they are in a suitable format for feature extraction. 
+ 1. Collected a dataset of speech recordings labeled with corresponding emotions. 
+ 2. Loaded and preprocessed these sound files using the Librosa and Soundfile libraries to ensure 
+  they are in a suitable format for feature extraction. 
 ## 2. Feature Extraction 
-1. Extract relevant audio features such as Mel-frequency cepstral coefficients (MFCCs), 
+1. Extracted relevant audio features such as Mel-frequency cepstral coefficients (MFCCs), 
 chroma, and spectral contrast using Librosa. 
-2. Compile these features into a structured format suitable for input into the MLP classifier. 
+2. Compileed these features into a structured format suitable for input into the MLP classifier. 
 ## 3. Model Training 
 1. Utilize the sklearn library to define and train a Multi-Layer Perceptron (MLP) classifier on 
 the extracted features. 
 2. Implement cross-validation and parameter tuning to optimize the model's performance.
 
 ## 4. Evaluation and Analysis 
-1. Evaluate the trained MLP classifier using appropriate metrics such as accuracy, precision, 
+1. Evaluated the trained MLP classifier using appropriate metrics such as accuracy, precision, 
 recall, and F1-score. 
