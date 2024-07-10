@@ -1,19 +1,26 @@
 # Speech-Emotion-Recognition-with-Librosa-
-# Methodology 
-1. Data Collection and Preprocessing 
-o Collect a dataset of speech recordings labeled with corresponding emotions. 
-o Load and preprocess these sound files using the Librosa and Soundfile libraries to ensure 
+# Introduction
+In the digital age, understanding human emotions through speech can enhance numerous applications, 
+from customer service to mental health monitoring. The Speech Emotion Recognition with Librosa 
+project aims to leverage audio processing techniques to detect and classify emotions from speech using 
+the powerful Python libraries Librosa, Soundfile, and sklearn. This project will serve as an introduction to 
+audio processing, feature extraction, and machine learning, paving the way for more advanced 
+applications such as deep learning-based emotion recognition systems.
+
+# Methodology  
+## 1. Data Collection and Preprocessing 
+ 1. Collect a dataset of speech recordings labeled with corresponding emotions. 
+ 2. Load and preprocess these sound files using the Librosa and Soundfile libraries to ensure 
 they are in a suitable format for feature extraction. 
-2. Feature Extraction 
-o Extract relevant audio features such as Mel-frequency cepstral coefficients (MFCCs), 
+## 2. Feature Extraction 
+1. Extract relevant audio features such as Mel-frequency cepstral coefficients (MFCCs), 
 chroma, and spectral contrast using Librosa. 
-o Compile these features into a structured format suitable for input into the MLP classifier. 
-3. Model Training 
-o Utilize the sklearn library to define and train a Multi-Layer Perceptron (MLP) classifier on 
+2. Compile these features into a structured format suitable for input into the MLP classifier. 
+## 3. Model Training 
+1. Utilize the sklearn library to define and train a Multi-Layer Perceptron (MLP) classifier on 
 the extracted features. 
-o Implement cross-validation and parameter tuning to optimize the model's performance.
-4. Evaluation and Analysis 
-o Evaluate the trained MLP classifier using appropriate metrics such as accuracy, precision, 
+2. Implement cross-validation and parameter tuning to optimize the model's performance.
+
+## 4. Evaluation and Analysis 
+1. Evaluate the trained MLP classifier using appropriate metrics such as accuracy, precision, 
 recall, and F1-score. 
-o Analyze the results to understand the model's strengths and limitations in recognizing 
-speech emotions.
